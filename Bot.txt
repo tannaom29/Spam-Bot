@@ -1,3 +1,14 @@
+Following Code Works On Any TextEditor, all you need to do is:
+1. Install Python On Your Device
+2. Run the following code in terminal: "pip install pyautogui"
+
+**Make sure that you are connected through whatsapp web in order to make this code work.
+
+In Editor:
+#
+#
+# Start of Code
+
 import pyautogui
 import webbrowser as wb
 import time
@@ -6,7 +17,7 @@ wb.get('C:/Program Files (x86)/Google/Chrome/Application/chrome.exe %s').open("w
 time.sleep(30)
 
 for i in range(100):
-    pyautogui.press("a")
+    pyautogui.press("a")            #**write one character at a time**
     pyautogui.press("u")
     pyautogui.press("r")
     pyautogui.press("space")
@@ -28,3 +39,7 @@ for i in range(100):
     pyautogui.press("?")
 
     pyautogui.press("enter")
+ 
+ # End of Code
+ #
+ #
