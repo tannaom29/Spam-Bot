@@ -17,7 +17,7 @@ wb.get('C:/Program Files (x86)/Google/Chrome/Application/chrome.exe %s').open("w
 time.sleep(30)
 
 for i in range(100):
-    pyautogui.press("a")            #**write one character at a time**
+    pyautogui.press("a")            #**push only one character at a time**
     pyautogui.press("u")
     pyautogui.press("r")
     pyautogui.press("space")
