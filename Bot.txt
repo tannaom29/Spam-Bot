@@ -1,0 +1,30 @@
+import pyautogui
+import webbrowser as wb
+import time
+
+wb.get('C:/Program Files (x86)/Google/Chrome/Application/chrome.exe %s').open("web.whatsapp.com")
+time.sleep(30)
+
+for i in range(100):
+    pyautogui.press("a")
+    pyautogui.press("u")
+    pyautogui.press("r")
+    pyautogui.press("space")
+    pyautogui.press("k")
+    pyautogui.press("y")
+    pyautogui.press("a")
+    pyautogui.press("space")
+    pyautogui.press("h")
+    pyautogui.press("a")
+    pyautogui.press("a")
+    pyautogui.press("l")
+    pyautogui.press("space")
+    pyautogui.press("c")
+    pyautogui.press("h")
+    pyautogui.press("a")
+    pyautogui.press("a")
+    pyautogui.press("l")
+    pyautogui.press("space")
+    pyautogui.press("?")
+
+    pyautogui.press("enter")
