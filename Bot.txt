@@ -2,7 +2,7 @@ Following Code Works On Any TextEditor, all you need to do is:
 1. Install Python On Your Device
 2. Run the following code in terminal: "pip install pyautogui"
 
-**Make sure that you are connected through whatsapp web in order to make this code work.
+**Make sure that you connect through the Whatsapp web with the chat of the selected person running in the background to make this code work.
 
 Inside the Editor create a file with .py as extension:
 #
