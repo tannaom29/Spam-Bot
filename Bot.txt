@@ -14,9 +14,9 @@ import webbrowser as wb
 import time
 
 wb.get('C:/Program Files (x86)/Google/Chrome/Application/chrome.exe %s').open("web.whatsapp.com")
-time.sleep(30)
+time.sleep(30)                      #delay
 
-for i in range(100):
+for i in range(100):                #100 can be replaced with any int, depending on number of times user wants to iterate. 
     pyautogui.press("a")            #**push only one character at a time**
     pyautogui.press("u")
     pyautogui.press("r")
